@@ -1,0 +1,61 @@
+Módulo 1: Sensor Data Collector - ESP32
+#include <WiFi.h>
+#include <PubSubClient.h>
+#include <ArduinoJson.h>
+
+Configuración WiFi y MQTT
+const char* ssid = "MICRORED_CARMEN";
+const char* password = "secure_password_2024";
+const char* mqtt_server = "192.168.1.100";
+
+WiFiClient espClient;
+PubSubClient client(espClient);
+
+Pines sensores
+const int voltagePin = 34;
+const int currentPin = 35;
+const int tempPin = 32;
+
+void setup() {
+  Serial.begin(115200);
+  setupWiFi();
+  setupMQTT();
+  setupSensors();
+}
+
+void loop() {
+  if (!client.connected()) {
+    reconnectMQTT();
+  }
+  client.loop();
+  
+  readAndPublishSensors();
+  delay(5000); // Publicar cada 5 segundos
+}
+
+void readAndPublishSensors() {
+  
+  int voltageRaw = analogRead(voltagePin);
+  int currentRaw = analogRead(currentPin);
+  int tempRaw = analogRead(tempPin);
+  
+ Convertir a valores reales
+  float voltage = (voltageRaw / 4095.0) * 250.0; // 0-250V
+  float current = ((currentRaw / 4095.0) * 5.0 - 2.5) / 0.066; // ACS712 30A
+  float temperature = (tempRaw / 4095.0) * 100.0; // 0-100°C
+  
+  Crear JSON payload
+  StaticJsonDocument<200> doc;
+  doc["deviceId"] = "ESP32_SOLAR_001";
+  doc["timestamp"] = millis();
+  doc["voltage"] = voltage;
+  doc["current"] = current;
+  doc["temperature"] = temperature;
+  doc["rssi"] = WiFi.RSSI();
+  
+  char payload[200];
+  serializeJson(doc, payload);
+  
+Publicar via MQTT
+  client.publish("sensors/solar/001", payload);
+}
