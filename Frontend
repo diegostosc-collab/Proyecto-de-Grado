@@ -1,0 +1,12 @@
+ 3. Especificaciones Frontend
+Frontend_React:
+  version: "18.x"
+  estado: "Redux Toolkit"
+  routing: "React Router v6"
+  ui_components: "Material-UI v5"
+  charts: "Chart.js 4.x"
+  pwa:
+    service_worker: "Workbox"
+    cache_strategy: "NetworkFirst para API, CacheFirst para assets"
+    offline_fallback: "Página offline personalizada"
+
