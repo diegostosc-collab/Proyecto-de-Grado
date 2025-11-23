@@ -1,0 +1,140 @@
+# MANUAL DE USUARIO - PLATAFORMA MICRORRED SOLAR
+
+## 1. ACCESO AL SISTEMA
+
+### 1.1. Primera Vez
+1. Abra su navegador web (Chrome, Firefox, Safari)
+2. Ingrese a: https://microred.elcarmen.socota
+3. Registrese con su cédula y datos básicos
+4. Espere validación del administrador comunitario
+
+### 1.2. Acceso Regular
+1. Ingrese a la plataforma
+2. Use su cédula como usuario
+3. Ingrese su contraseña personal
+4. Haga clic en "Iniciar Sesión"
+
+## 2. DASHBOARD PRINCIPAL
+
+### 2.1. Panel de Resumen
+- **Potencia Actual:** Energía generada en este momento
+- **Consumo Familiar:** Su consumo eléctrico actual
+- **Saldo Energético:** Energía disponible en su cuenta
+- **Estado Sistema:** Operación normal/mantenimiento/falla
+
+### 2.2. Navegación
+- **Inicio:** Dashboard principal
+- **Mi Consumo:** Detalle de su consumo energético
+- **Pagos:** Gestión de pagos y saldos
+- **Alertas:** Notificaciones del sistema
+- **Ayuda:** Soporte y manuales
+
+## 3. GESTIÓN DE CONSUMO
+
+### 3.1. Ver Consumo en Tiempo Real
+1. Vaya a "Mi Consumo"
+2. Observe el gráfico de consumo horario
+3. Revise comparativa con días anteriores
+4. Identifique horas de mayor consumo
+
+### 3.2. Configurar Alertas
+1. En "Alertas", haga clic en "Nueva Alerta"
+2. Seleccione tipo: "Consumo Alto", "Saldo Bajo"
+3. Defina límite (ej: 300W para consumo alto)
+4. Elija notificación: "Plataforma", "SMS"
+
+## 4. GESTIÓN DE PAGOS
+
+### 4.1. Ver Saldo y Consumo
+1. Vaya a "Pagos"
+2. Revise su saldo actual en kWh
+3. Consulte consumo del mes actual
+4. Descargue factura mensual
+
+### 4.2. Realizar Recarga
+1. En "Pagos", haga clic en "Recargar"
+2. Seleccione monto en kWh o pesos
+3. Elija método: Efectivo, Transferencia
+4. Confirme la transacción
+
+## 5. GESTIÓN DE ALERTAS
+
+### 5.1. Tipos de Alertas
+- **Alerta Naranja:** Consumo cercano al límite
+- **Alerta Roja:** Consumo excedido
+- **Alerta Azul:** Saldo bajo
+- **Alerta Verde:** Sistema en mantenimiento
+
+### 5.2. Acciones ante Alertas
+1. **Alerta Naranja:** Reduzca consumo temporalmente
+2. **Alerta Roja:** Desconecte equipos no esenciales
+3. **Alerta Azul:** Realice recarga de energía
+4. **Alerta Verde:** Espere a que termine mantenimiento
+
+## 6. FUNCIONAMIENTO OFFLINE
+
+### 6.1. Modo Sin Conexión
+- La plataforma funciona sin internet
+- Los datos se sincronizan al recuperar conexión
+- Las alertas se guardan localmente
+- Los pagos se procesan cuando hay conexión
+
+### 6.2. App Móvil
+1. Descargue la app desde la plataforma
+2. Instálela en su teléfono
+3. Ingrese con sus mismas credenciales
+4. Acceda a todas las funciones desde su móvil
+
+## 7. SEGURIDAD Y PRIVACIDAD
+
+### 7.1. Protección de Cuenta
+- No comparta su contraseña
+- Cierre sesión en computadores públicos
+- Reporte actividades sospechosas
+- Actualice su contraseña periódicamente
+
+### 7.2. Datos Personales
+- Solo el administrador ve su consumo detallado
+- Los datos se usan solo para gestión energética
+- Puede solicitar eliminación de sus datos
+- La información está protegida por ley
+
+## 8. SOLUCIÓN DE PROBLEMAS
+
+### 8.1. No Puedo Iniciar Sesión
+- Verifique que su cédula esté correcta
+- Confirme que tenga conexión a internet
+- Contacte al administrador comunitario
+- Use la opción "Recuperar Contraseña"
+
+### 8.2. No Veo Mis Datos de Consumo
+- Espere 5 minutos por actualización
+- Verifique la fecha seleccionada
+- Revise si hay alertas de sistema
+- Contacte soporte técnico
+
+### 8.3. Recarga No Aparece
+- Espere 15 minutos por procesamiento
+- Verifique el comprobante de pago
+- Contacte al tesorero comunitario
+- Revise su correo de confirmación
+
+## 9. CONTACTOS DE SOPORTE
+
+### 9.1. Soporte Técnico
+- **Juan Pérez:** 312-456-7890 (Técnico Local)
+- **María Gómez:** 320-123-4567 (Administradora)
+- **Soporte 24/7:** soporte@microredelcarmen.org
+
+### 9.2. Emergencias
+- **Fallas Eléctricas:** 311-890-1234
+- **Incendios:** 119
+- **Salud:** 123
+
+## 10. GLOSARIO TÉCNICO
+
+- **kW (kilovatio):** Unidad de potencia
+- **kWh (kilovatio-hora):** Unidad de energía
+- **Potencia Pico:** Máxima capacidad del sistema
+- **Eficiencia:** Relación entre energía generada y consumida
+- **Microred:** Sistema eléct
