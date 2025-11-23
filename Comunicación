@@ -1,0 +1,16 @@
+ 4. Especificaciones Comunicación
+Protocolos:
+  mqtt:
+    broker: "Mosquitto 2.0"
+    qos: "1 para datos críticos, 0 para telemetría"
+    topics:
+      - "sensors/+/voltage"
+      - "sensors/+/current" 
+      - "sensors/+/temperature"
+      - "alerts/+/critical"
+  websocket:
+    library: "Socket.io 4.7"
+    eventos:
+      - "real-time-data"
+      - "device-status"
+      - "alert-notification"
