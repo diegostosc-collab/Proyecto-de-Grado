@@ -1,0 +1,19 @@
+5. Especificaciones Cloud
+AWS_Services:
+  iot_core:
+    reglas: "5 rules para procesamiento datos"
+    topics: "20+ topics MQTT"
+  ec2:
+    instancia: "t3.medium"
+    os: "Ubuntu 22.04 LTS"
+    almacenamiento: "30GB SSD"
+  rds:
+    motor: "PostgreSQL 14"
+    instancia: "db.t3.small"
+    almacenamiento: "20GB GP2"
+  s3:
+    buckets:
+      - "metrics-archive"
+      - "device-firmware"
+      - "backups"
+
