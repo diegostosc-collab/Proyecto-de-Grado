@@ -1,0 +1,33 @@
+ ESPECIFICACIONES TÉCNICAS DEL SISTEMA
+
+ 1. Especificaciones Hardware IoT
+Dispositivos_ESP32:
+  modelo: "ESP32-WROOM-32"
+  flash: "4MB"
+  ram: "520KB"
+  conectividad: "WiFi 802.11 b/g/n, Bluetooth 4.2"
+  sensores_integrados:
+    - "Sensor hall"
+    - "Sensor temperatura interno"
+  alimentacion: "5V DC / 3.3V"
+  consumo: "~100mA en operación normal"
+
+Sensores_Externos:
+  voltaje:
+    modelo: "ZMPT101B"
+    rango: "0-250V AC"
+    precision: "±1%"
+    salida: "0-5V analog"
+  corriente:
+    modelo: "ACS712"
+    rango: "0-30A"
+    precision: "±1.5%"
+    salida: "0-5V analog"
+  temperatura_humedad:
+    modelo: "DHT22"
+    rango_temperatura: "-40°C to 80°C"
+    precision_temperatura: "±0.5°C"
+    rango_humedad: "0-100% RH"
+    precision_humedad: "±2%"
+
+ 
