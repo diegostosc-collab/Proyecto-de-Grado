@@ -1,0 +1,19 @@
+2. Especificaciones Software Backend
+Backend_NodeJS:
+  version: "18.x LTS"
+  framework: "Express.js 4.18"
+  seguridad:
+    - "Helmet.js para headers seguridad"
+    - "CORS configurado"
+    - "Rate limiting: 100 req/min por IP"
+  autenticacion: "JWT tokens"
+  base_datos:
+    mongodb:
+      version: "8.0"
+      esquema: "Flexible para datos IoT"
+      indices: "Timestamp, deviceId, metricType"
+    postgresql:
+      version: "14"
+      esquema: "Relacional para usuarios"
+      tablas_principales: "users, transactions, devices"
+
