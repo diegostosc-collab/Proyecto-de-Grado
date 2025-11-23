@@ -1,0 +1,17 @@
+ 6. Métricas de Calidad
+Rendimiento:
+  api_response_time: "< 200ms p95"
+  frontend_load_time: "< 3s fully loaded"
+  iot_data_latency: "< 2s desde sensor a dashboard"
+  availability: "> 99.5% uptime"
+
+Seguridad:
+  encryption: "AES-256 para datos sensibles"
+  authentication: "JWT con expiry 24h"
+  authorization: "RBAC por roles"
+  audit: "Log de todas las operaciones"
+
+Escalabilidad:
+  max_devices: "100+ dispositivos IoT"
+  concurrent_users: "500+ usuarios"
+  data_retention: "13 meses datos históricos"
